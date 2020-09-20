@@ -13,7 +13,7 @@ const MyFooter = styled.div`
     font-family: cursive;
     a{
       img{
-          height:60px;
+          height:50px;
           border-radius: 50%;
           margin: 3px;
       }
@@ -27,7 +27,9 @@ const Footer = () => {
     return (
         <MyFooter>
            <a href="https://www.linkedin.com/in/vaheed-akhtar-97a761a4/"
-           target="_blank" rel="noopener noreferrer"><img src="https://scotiabankgillerprize.ca/wp-content/uploads/2018/05/LinkedIn-Icon.png" alt="LI-icon"/></a>
+           target="_blank" rel="noopener noreferrer">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQguOImIJHOHUPczYNEPe5WHSlRUgiyXJ99lA&usqp=CAU" alt="LI-icon"/>
+           </a>
            <a href="https://stackoverflow.com/users/6544460/vahid-akhtar?tab=profile" target="_blank" rel="noopener noreferrer">
              <img src="https://icon-library.net/images/stackoverflow-icon/stackoverflow-icon-6.jpg" alt="so-icon"/>  
            </a>

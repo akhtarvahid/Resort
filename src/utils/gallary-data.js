@@ -1,21 +1,21 @@
 export default [
     {
       id: 1,
-      img: 'https://www.comohotels.com/sites/default/files/styles/listing_pages/public/restructured-files/2016/11/07/Cocoa%20Island%20-%20Wellness%20-%20%20COMO%20Shambhala%20Treatment%20Room%20.jpg?itok=HOjXA3lP&timestamp=1478515107',
+      img: 'https://platinumworld.net/platinum-signature-experiences/wp-content/uploads/2017/11/Como_cocoa_island-3.jpg',
       className: 'carousel-item active',
       classImg:'d-block w-100',
       title: "First slide",
     },
     {
         id: 2,
-        img: 'https://www.comohotels.com/sites/default/files/styles/listing_pages/public/restructured-files/2017/08/29/Cocoa%20Island%20-%20Dining%20-%20%20Tented%20Dinner.jpg?itok=YxcbNqyy&timestamp=1503966419',
+        img: 'https://2.bp.blogspot.com/-1khI0cMbmOs/VLoqXVetS9I/AAAAAAAAAMY/07xFh_P9M8s/s1600/PoolVilla.jpeg',
         className: 'carousel-item',
         classImg:'d-block w-100',
         title: "Second slide",
       },
       {
         id: 3,
-        img: 'https://www.comohotels.com/sites/default/files/styles/listing_pages/public/COMO-Cocoa-Island_Coral-Lines-1.jpg?itok=X7nP3frw&timestamp=1561542925',
+        img: 'https://platinumworld.net/platinum-signature-experiences/wp-content/uploads/2017/11/Cocoa-Island-by-COMO--800x600.jpg',
         className: 'carousel-item',
         classImg:'d-block w-100',
         title: "Third slide",
