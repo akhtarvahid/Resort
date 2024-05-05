@@ -16,14 +16,14 @@ const Gallery = () => {
           data-ride="carousel"
         >
           <div className="carousel-inner">
-            {galleries.map(({ id, img, className, classImg, title }) => (
+            {galleries.map((g) => (
               <Carousel
-                key={id}
-                url={img}
-                className={className}
-                classImg={classImg}
+                key={g.id}
+                url={g.img}
+                className={g.className}
+                classImg={g.classImg}
                 imgStyle={{ height: "800px", objectFit: "cover" }}
-                altName={title}
+                altName={g.title}
               />
             ))}
           </div>
