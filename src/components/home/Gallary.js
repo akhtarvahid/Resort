@@ -1,11 +1,11 @@
 import React from 'react';
 import Title from '../common/Title';
 import Carousel from '../common/Carousel';
-import gallary from '../../utils/gallary-data';
+import { galleryData } from '../../utils/gallary-data';
 
 class Gallary extends React.Component{
     state={
-      gallary: gallary
+      gallary: galleryData
     }
     render(){
     return (
