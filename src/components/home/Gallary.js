@@ -11,7 +11,7 @@ class Gallary extends React.Component{
     return (
         <div>
          <Title title="Gallary" center/>  
-         <div style={{margin:30}}>
+         <div style={{margin:50}}>
          <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 {this.state.gallary.map(({id, img, className, classImg, title})=>
@@ -19,7 +19,7 @@ class Gallary extends React.Component{
                     key={id}
                     url={img} className={className}
                     classImg={classImg}
-                    imgStyle={{height:'600px'}}
+                    imgStyle={{height:'800px', objectFit:'cover'}}
                     altName={title}
                 />)}
             </div>
