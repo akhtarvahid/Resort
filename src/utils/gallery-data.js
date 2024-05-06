@@ -1,9 +1,10 @@
-const Img1 = require('../images/carousel/beach.jpg');
+const Img1 = require('../images/carousel/date.jpeg');
 const Img2 = require('../images/carousel/beachSite.jpeg');
 const Img3 = require('../images/carousel/EnjoyFood.jpeg');
 const Img4 = require('../images/carousel/meal.jpeg');
 const Img5 = require('../images/carousel/night.jpeg');
 const Img6 = require('../images/carousel/polynesia.jpg');
+const Img7 = require('../images/carousel/beach.jpg');
 
 export const galleryData = [
     {
@@ -48,4 +49,11 @@ export const galleryData = [
         classImg:'d-block w-100',
         title: "Six slide",
       },
+      {
+        id: 7,
+        img: Img7,
+        className: 'carousel-item',
+        classImg:'d-block w-100',
+        title: "Seventh slide",
+      }
 ]
