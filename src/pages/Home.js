@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/home/Header";
 import About from "../components/About/About";
 import Rooms from "../components/home/Rooms";
 import Footer from "./../components/home/Footer";
 import Gallery from "../components/Gallery/Gallery";
+import Header from "../components/Header/Header";
 
 const Home = () => {
   return (
