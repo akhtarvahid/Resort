@@ -1,29 +1,25 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
-import Room from './Room';
-import Section from '../common/Section';
-import Title from '../common/Title';
-import rooms from '../../utils/rooms-data';
-import { setColor, media, setRem } from '../../styles';
+import React, { useState } from "react";
+import styled from "styled-components";
+import Room from "./Room";
+import Section from "../common/Section";
+import Title from "../common/Title";
+import { roomsData } from "../../utils/rooms-data";
+import { setColor, media, setRem } from "../../styles";
 
+const Rooms = () => {
+  const [rooms] = useState(roomsData || []);
+  return (
+    <Section color={setColor.lightGrey}>
+      <Title title="our rooms" center />
+      <RoomsCenter>
+        {rooms.map((room) => {
+          return <Room key={room.id} room={room} />;
+        })}
+      </RoomsCenter>
+    </Section>
+  );
+};
 
-class Rooms extends Component {
-    state = {
-        rooms: rooms
-    }
-    render() {
-        return (
-            <Section color={setColor.lightGrey}>
-             <Title title="our rooms" center/>
-             <RoomsCenter>
-              {this.state.rooms.map(room => {
-               return <Room key={room.id} room={room}/>
-              })}   
-             </RoomsCenter>  
-            </Section>
-        );
-    }
-}
 const RoomsCenter = styled.div`
   width: 90vw;
   margin: 0 auto;
