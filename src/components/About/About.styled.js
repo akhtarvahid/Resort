@@ -21,7 +21,7 @@ export const AboutCenter = styled.div`
   }
   .about-info {
     p {
-      ${setLetterSpacing(3)};
+      ${setLetterSpacing(2)};
     }
   }
   width: 90vw;

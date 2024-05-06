@@ -14,7 +14,7 @@ const Room = ({ className, room }) => {
         <h4>{title}</h4>
         <p>{info}</p>
       </div>
-      <SmallBtn>More...</SmallBtn>
+      <SmallBtn style={{width: '100%'}}>More...</SmallBtn>
     </article>
   );
 };
