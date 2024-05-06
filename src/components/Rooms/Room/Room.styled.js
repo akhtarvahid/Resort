@@ -45,6 +45,7 @@ export default styled(Room)`
     h4 {
       text-transform: capitalize;
       ${setLetterSpacing()};
+      margin: 10px;
     }
     p {
       ${setLetterSpacing()};
