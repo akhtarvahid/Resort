@@ -56,6 +56,7 @@ const BannerWrapper = styled(Banner)`
      ${setBorder({width: '6px', color: setColor.primaryColor})};
      p {
          width: 75%;
+         color: ghostwhite;
      }`}
  h1 {
      ${fadeIn('100%', '-10%', '0')}
