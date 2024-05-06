@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Room from "./Room";
+import Room from "./Room/Room";
 import Section from "../common/Section";
 import Title from "../common/Title";
 import { roomsData } from "../../utils/rooms-data";
