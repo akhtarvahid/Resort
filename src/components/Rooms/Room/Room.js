@@ -27,4 +27,5 @@ Room.propTypes = {
     price: PropTypes.number.isRequired,
   }),
 };
+
 export default Room;

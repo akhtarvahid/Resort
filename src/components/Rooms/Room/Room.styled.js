@@ -7,9 +7,9 @@ import {
   setShadow,
 } from "../../../styles";
 import styled from "styled-components";
-import Rooms from "../Rooms";
+import Room from "./Room";
 
-export default styled(Rooms)`
+export default styled(Room)`
   background: ${setColor.mainWhite};
   margin: ${setRem(32)} 0;
   .img-container {
