@@ -10,7 +10,7 @@ const Rooms = () => {
   const [rooms] = useState(roomsData || []);
   return (
     <Section color={setColor.lightGrey}>
-      <Title title="our rooms" center />
+      <Title title="our luxurious rooms" center />
       <RoomsCenter>
         {rooms.map((room) => {
           return <Room key={room.id} room={room} />;
