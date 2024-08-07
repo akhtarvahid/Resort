@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/Resort/static/css/main.d498bfb3.chunk.css",
-    "main.js": "/Resort/static/js/main.decca3d8.chunk.js",
-    "main.js.map": "/Resort/static/js/main.decca3d8.chunk.js.map",
-    "runtime~main.js": "/Resort/static/js/runtime~main.b2c6d58c.js",
-    "runtime~main.js.map": "/Resort/static/js/runtime~main.b2c6d58c.js.map",
-    "static/js/2.e8619edc.chunk.js": "/Resort/static/js/2.e8619edc.chunk.js",
-    "static/js/2.e8619edc.chunk.js.map": "/Resort/static/js/2.e8619edc.chunk.js.map",
+    "main.css": "/Resort/static/css/main.31d6cfe0.css",
+    "main.js": "/Resort/static/js/main.e27e54e4.js",
+    "static/media/beach.jpg": "/Resort/static/media/beach.ca26aeb02a7dc7ff73f4.jpg",
+    "static/media/polynesia.jpg": "/Resort/static/media/polynesia.2340b8d82c51bdba0417.jpg",
+    "static/media/room2.jpeg": "/Resort/static/media/room2.4c8fdcf6c024a8607871.jpeg",
+    "static/media/room1.jpeg": "/Resort/static/media/room1.9ba6e2857179827f50fc.jpeg",
+    "static/media/date.jpeg": "/Resort/static/media/date.656785b205a77a16300f.jpeg",
+    "static/media/beachSite.jpeg": "/Resort/static/media/beachSite.b9f7872117ce5cd687f6.jpeg",
+    "static/media/homeImg.jpeg": "/Resort/static/media/homeImg.2567b0f8b7595d920f8f.jpeg",
+    "static/media/EnjoyFood.jpeg": "/Resort/static/media/EnjoyFood.80797995c334325fefe4.jpeg",
+    "static/media/aboutBcg.jpeg": "/Resort/static/media/aboutBcg.0d3a9801c24d55edde45.jpeg",
+    "static/media/meal.jpeg": "/Resort/static/media/meal.a696d0c1abbd64cfef50.jpeg",
+    "static/media/room3.jpeg": "/Resort/static/media/room3.b50e390762f943274f03.jpeg",
+    "static/media/so.png": "/Resort/static/media/so.82e22fe1c37ef3bb2f80.png",
+    "static/media/night.jpeg": "/Resort/static/media/night.88caba04018c9e292b80.jpeg",
+    "static/media/codecamp.jpeg": "/Resort/static/media/codecamp.46416e5481be4c450a8d.jpeg",
     "index.html": "/Resort/index.html",
-    "precache-manifest.374558440ef7bd11e08e0f589328b48a.js": "/Resort/precache-manifest.374558440ef7bd11e08e0f589328b48a.js",
-    "service-worker.js": "/Resort/service-worker.js",
-    "static/css/main.d498bfb3.chunk.css.map": "/Resort/static/css/main.d498bfb3.chunk.css.map",
-    "static/media/aboutBcg.jpeg": "/Resort/static/media/aboutBcg.bffce85b.jpeg",
-    "static/media/homeImg.jpeg": "/Resort/static/media/homeImg.51eba400.jpeg"
-  }
+    "main.e27e54e4.js.map": "/Resort/static/js/main.e27e54e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.e27e54e4.js"
+  ]
 }
