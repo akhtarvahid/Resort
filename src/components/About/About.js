@@ -33,7 +33,7 @@ const About = () => {
               </PrimaryBtn>
             </TooltipText>
             <TooltipBox>
-              <p>Coming soon</p>
+              <p>{show ? "Coming soon" : "Read more..."}</p>
             </TooltipBox>
           </TooltipCard>
         </div>
