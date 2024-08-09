@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Section from "../common/Section";
 import Title from "../common/Title";
 import aboutImg from "../../images/aboutBcg.jpeg";
 import { PrimaryBtn } from "../common/Buttons";
 import { AboutCenter } from "./About.styled";
+import { TooltipBox, TooltipCard, TooltipText } from "../common/Tooltip";
 
 const About = () => {
+  const [show, setShow] = useState(false);
   return (
     <Section>
       <AboutCenter>
@@ -23,7 +25,17 @@ const About = () => {
             diving or snorkelling; and create adventures for families travelling
             together.
           </p>
-          <PrimaryBtn>read more</PrimaryBtn>
+
+          <TooltipCard>
+            <TooltipText>
+              <PrimaryBtn onMouseEnter={() => setShow(true)}>
+                read more
+              </PrimaryBtn>
+            </TooltipText>
+            <TooltipBox>
+              <p>{show ? "Coming soon" : "Read more..."}</p>
+            </TooltipBox>
+          </TooltipCard>
         </div>
       </AboutCenter>
     </Section>
