@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Zoom from "react-medium-image-zoom";
-import ZoomedImage from './components/About/ZoomedImage';
 import App from './App';
 
 // Mocking react-medium-image-zoom
