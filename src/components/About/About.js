@@ -5,8 +5,7 @@ import aboutImg from "../../images/aboutBcg.jpeg";
 import { PrimaryBtn } from "../common/Buttons";
 import { AboutCenter } from "./About.styled";
 import { TooltipBox, TooltipCard, TooltipText } from "../common/Tooltip";
-import Zoom from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
+import ZoomedImage from "./ZoomedImage";
 
 const About = () => {
   const [show, setShow] = useState(false);
@@ -46,15 +45,7 @@ const About = () => {
           </div>
         </AboutCenter>
       </Section>
-      {isClickedToZoom && (
-        <Zoom>
-          <img
-            alt="That Wanaka Tree, New Zealand by Laura Smetsers"
-            src={aboutImg}
-            width="500"
-          />
-        </Zoom>
-      )}
+      {isClickedToZoom && <ZoomedImage aboutImg={aboutImg} />}
     </>
   );
 };
