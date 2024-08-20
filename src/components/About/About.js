@@ -11,7 +11,7 @@ const About = () => {
   return (
     <Section>
       <AboutCenter>
-        <div className="about-img">
+        <div className="about-img" onClick={()=> console.log('zoom in')}>
           <img src={aboutImg} alt="about us" />
         </div>
         <div className="about-info">
