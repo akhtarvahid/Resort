@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resort/static/css/main.31d6cfe0.css",
-    "main.js": "/Resort/static/js/main.7bd7e4e2.js",
+    "main.css": "/Resort/static/css/main.e02dbf2c.css",
+    "main.js": "/Resort/static/js/main.6181ef33.js",
     "static/media/beach.jpg": "/Resort/static/media/beach.ca26aeb02a7dc7ff73f4.jpg",
     "static/media/polynesia.jpg": "/Resort/static/media/polynesia.2340b8d82c51bdba0417.jpg",
     "static/media/room2.jpeg": "/Resort/static/media/room2.4c8fdcf6c024a8607871.jpeg",
@@ -17,10 +17,11 @@
     "static/media/night.jpeg": "/Resort/static/media/night.88caba04018c9e292b80.jpeg",
     "static/media/codecamp.jpeg": "/Resort/static/media/codecamp.46416e5481be4c450a8d.jpeg",
     "index.html": "/Resort/index.html",
-    "main.7bd7e4e2.js.map": "/Resort/static/js/main.7bd7e4e2.js.map"
+    "main.e02dbf2c.css.map": "/Resort/static/css/main.e02dbf2c.css.map",
+    "main.6181ef33.js.map": "/Resort/static/js/main.6181ef33.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.7bd7e4e2.js"
+    "static/css/main.e02dbf2c.css",
+    "static/js/main.6181ef33.js"
   ]
 }
