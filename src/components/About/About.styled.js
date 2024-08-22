@@ -45,3 +45,13 @@ grid-column-gap: ${setRem(32)};
 }
 `}
 `;
+
+export const InnerZoomBox = styled.div`
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    z-index:1;
+    border: 5px solid;
+`;
