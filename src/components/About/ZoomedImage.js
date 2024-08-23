@@ -11,6 +11,7 @@ export default function ZoomedImage({ aboutImg }) {
   }, [])
   return (
     <div className="wrapper">
+    <div onClick={() => setIsZoomed(false)}>X</div>  
     <InnerZoomBox>
        <ControlledZoom isZoomed={isZoomed} onZoomChange={handleZoomChange}>
       <img
