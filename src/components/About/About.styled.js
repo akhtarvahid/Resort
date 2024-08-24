@@ -47,11 +47,26 @@ grid-column-gap: ${setRem(32)};
 `;
 
 export const InnerZoomBox = styled.div`
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: black;
-    z-index:1;
-    border: 5px solid;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  z-index: 1;
+  border: 5px solid;
+`;
+
+export const CrossMark = styled.div`
+  position: absolute;
+  right: -22px;
+  top: -22px;
+  color: red;
+  background: white;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 `;
