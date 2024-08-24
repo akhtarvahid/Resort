@@ -55,3 +55,18 @@ export const InnerZoomBox = styled.div`
     z-index:1;
     border: 5px solid;
 `;
+
+export const CrossMark = styled.div`
+    position: absolute;
+    right: -22px;
+    top: -22px;
+    color: red;
+    background: white;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+`

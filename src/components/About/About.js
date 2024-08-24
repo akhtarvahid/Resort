@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </AboutCenter>
       </Section>
-      {isClickedToZoom && <ZoomedImage aboutImg={aboutImg} />}
+      {isClickedToZoom && <ZoomedImage aboutImg={aboutImg} setIsClickedToZoom={setIsClickedToZoom} />}
     </>
   );
 };
