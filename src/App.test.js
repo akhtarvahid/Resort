@@ -15,6 +15,6 @@ describe("ZoomedImage", () => {
   });
 
   it("should match the 5+5=10", () => {
-    expect(5 + 5).toBe(11);
+    expect(5 + 5).toBe(10);
   });
 });
