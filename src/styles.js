@@ -1,70 +1,74 @@
 // import homeImage from './images/homeBcg.jpeg'
 
-import { css } from 'styled-components';
+import { css } from "styled-components";
 
 export const setColor = {
-    primaryColor: 'coral',
-    mainWhite: '#fff',
-    mainBlack: '#222',
-    mainGrey: '#ececec',
-    lightGrey: '#f7f7f7'
-}
+  primaryColor: "#ab7272",
+  mainWhite: "#fff",
+  mainBlack: "#222",
+  mainGrey: "#ececec",
+  lightGrey: "#f7f7f7",
+  titleColor: "#ff9a9a",
+};
 
 export const setFont = {
-    main: "font-family: 'Lato', sans-serif;",
-    slanted: "font-family: 'Courgette', cursive;"
-}
+  main: "font-family: 'Lato', sans-serif;",
+  slanted: "font-family: 'Courgette', cursive;",
+};
 
-export const setFlex = ({x, y}) => {
-    return `display: flex; align-items:${x}; justify-content:${y};`
-}
+export const setFlex = ({ x, y }) => {
+  return `display: flex; align-items:${x}; justify-content:${y};`;
+};
 
-export const setBackground = ({img = "https://burst.shopifycdn.com/photos/beach-resort-holiday.jpg?width=1850&format=pjpg&exif=1&iptc=1", color = "rgba(0,0,0,0)"} = {}) => {
-    return `background: linear-gradient(${color}, ${color}), url(${img}) center/ cover fixed no-repeat;`
-}
+export const setBackground = ({
+  img = "https://burst.shopifycdn.com/photos/beach-resort-holiday.jpg?width=1850&format=pjpg&exif=1&iptc=1",
+  color = "rgba(0,0,0,0)",
+} = {}) => {
+  return `background: linear-gradient(${color}, ${color}), url(${img}) center/ cover fixed no-repeat;`;
+};
 
-export const setRem = (number = 16)=> {
-    return `${number/16}rem`
-}
+export const setRem = (number = 16) => {
+  return `${number / 16}rem`;
+};
 
-export const setLetterSpacing =(number = 2) => {
-    return `letter-spacing:${number}px`;
-}
+export const setLetterSpacing = (number = 2) => {
+  return `letter-spacing:${number}px`;
+};
 
 export const setShadow = {
-    light: "box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);",
-    dark: "box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);",
-    darkest: "box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);"
-}
+  light: "box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);",
+  dark: "box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);",
+  darkest: "box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);",
+};
 
 export const setBorder = ({
-    width = "2px",
-    style = "solid",
-    color = "black"
+  width = "2px",
+  style = "solid",
+  color = "black",
 } = {}) => {
-    return `border: ${width} ${style} ${color}`;
-}
+  return `border: ${width} ${style} ${color}`;
+};
 
 const sizes = {
-    large: 1200,
-    desktop: 992,
-    tablet: 768,
-    phone: 576
-}
+  large: 1200,
+  desktop: 992,
+  tablet: 768,
+  phone: 576,
+};
 
 export const media = Object.keys(sizes).reduce((acc, label) => {
-    acc[label] = (...args) => css`
+  acc[label] = (...args) => css`
     @media (min-width: ${sizes[label] / 16}em) {
-        ${css(...args)}
+      ${css(...args)}
     }
-    `
-    return acc
-}, {})
+  `;
+  return acc;
+}, {});
 
-export const setTransition = ({ 
-    property = "all",
-    time = "0.3s",
-    timing = "ease-in-out"
+export const setTransition = ({
+  property = "all",
+  time = "0.3s",
+  timing = "ease-in-out",
 } = {}) => {
-   return  `transition: ${property} ${time} ${timing}`
-}
+  return `transition: ${property} ${time} ${timing}`;
+};

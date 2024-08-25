@@ -53,9 +53,9 @@ const BannerWrapper = styled(Banner)`
     text-transform: capitalize;
     font-size: ${setRem(48)};
     /* setRem */
-    color: ${setColor.primaryColor};
+    color: ${setColor.mainWhite};
     span {
-      color: ${setColor.mainWhite};
+      color: ${setColor.titleColor};
     }
   }
   p {
